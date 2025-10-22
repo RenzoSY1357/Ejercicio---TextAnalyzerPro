@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #43aafe;
+    line-height: 1.6;
+}
+
+header {
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    font-size: 1.3rem;
+    padding: 1.5rem 0;
+    margin-bottom: 1rem;
+}
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.Analizador {
+    margin-bottom: 2rem;
+}
+
+.texto {
+    width: 100%;
+    height: 200px;
+    max-height: 300px;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 2px solid rgb(141, 141, 141);
+    font-size: 1rem;
+    transition: border-color 0.3s;
+    font-family: inherit;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.05);
+    box-sizing: border-box;
+}
+
+.texto:focus {
+    outline: none;
+    border-color: #43aafe;
+    box-shadow: 0 0 0 3px rgba(67, 170, 254, 0.25);
+}
+
+.Resultados {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin: 2rem 0
+}
+
+.resultado {
+    background: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 2rem 1.5rem;
+    min-width: 220px;
+    flex: 1 1 220px;
+    text-align:center;
+    transition: box-shadow 0.2s;
+}
+
+.resultado:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+.resultado h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: #025ec7;
+}
+
+.resultado p {
+    font-size: 2rem;
+    /* font-weight: bold; */
+    margin: 0;
+}
+
+.FrecuenciaPalabras {
+    background: white;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    margin: 1rem auto 2rem;
+    max-width: 800px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.FrecuenciaPalabras h3 {
+    color: #0253ac;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.FrecuenciaPalabras ol {
+    padding-left: 1.5rem;
+}
+
+.PalabrasPrincipales {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* max-height: 700px; */
+    /* column-count: 4; */
+    /* column-gap: 2rem; */
+}
+.PalabrasPrincipales ol {
+    margin: 0;
+    padding: 0;
+    column-count: 3;
+    /* column-gap: 2rem; */
+}
+.PalabrasPrincipales li {
+    break-inside: avoid;
+    list-style-position: inside;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 1.5rem;
+    color: white;
+    font-size: 0.9rem;
+}
+

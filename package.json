@@ -1,0 +1,21 @@
+{
+  "name": "textanalyzerpro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.27.1",
+    "@stryker-mutator/core": "^9.2.0",
+    "@stryker-mutator/jest-runner": "^9.2.0",
+    "@types/jest": "^30.0.0",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.5",
+    "typescript": "^5.9.3"
+  }
+}

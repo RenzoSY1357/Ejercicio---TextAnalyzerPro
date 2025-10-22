@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TextAnalyzerPro</title>
+</head>
+<body>
+    <header><h1>Text Analyzer Pro</h1></header>
+    <main>
+        <!-- El Analizador -->
+        <form class="Analizador">
+            <textarea name="texto" class="texto" rows="10" cols="50" placeholder="Pega tu texto"></textarea>
+        </form>
+
+        <!-- Palabras Principales -->
+        <section class="FrecuenciaPalabras">
+            <h3>Palabras Principales</h3>
+            <div class="PalabrasPrincipales">
+                <ol id="PalabrasClave"></ol>
+            </div>
+        </section>
+
+        <!-- Resultados -->
+        <section class="Resultados">
+            <div class="resultado">
+                <h3>Conteo Palabras</h3>
+                <p class="ContadorPalabras"></p>
+            </div>
+            
+            <div class="resultado">
+                <h3>Total de caracteres</h3>
+                <p class="TotalCaracteres"></p>
+            </div>
+
+            <div class="resultado">
+                <h3>Total de oraciones</h3>
+                <p class="TotalOraciones"></p>
+            </div>
+
+            <div class="resultado">
+                <h3>Total de párrafos</h3>
+                <p class="TotalParrafos"></p>
+            </div>
+
+            <div class="resultado">
+                <h3>Longitud media palabras</h3>
+                <p class="MediaPalabras"></p>
+            </div>
+
+            <div class="resultado" >
+                <h3>Media de palabras por oración:</h3>
+                <p class="MediaPalabrasOracion"></p>
+            </div>
+        </section>
+ 
+    </main>
+    <footer></footer>
+ 
+    <script type="module" src="../../dist/UI/app.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</body>
+</html>
