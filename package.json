@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "generate-docs": "jsdoc -c JSDocsConfig.json"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +16,9 @@
     "@stryker-mutator/jest-runner": "^9.2.0",
     "@types/jest": "^30.0.0",
     "jest": "^30.2.0",
+    "jsdoc": "^4.0.5",
     "ts-jest": "^29.4.5",
     "typescript": "^5.9.3"
   }
+  
 }

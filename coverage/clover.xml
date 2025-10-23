@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1760961417013" clover="3.2.0">
-  <project timestamp="1760961417013" name="All files">
-    <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="0" coveredelements="0" complexity="0" loc="0" ncloc="0" packages="0" files="0" classes="0"/>
+<coverage generated="1761215017563" clover="3.2.0">
+  <project timestamp="1761215017563" name="All files">
+    <metrics statements="23" coveredstatements="23" conditionals="14" coveredconditionals="13" methods="13" coveredmethods="13" elements="50" coveredelements="49" complexity="0" loc="23" ncloc="23" packages="1" files="1" classes="1"/>
+    <file name="Analizador.ts" path="/home/renzosy/Documents/M2D/Desarrollo Web Entorno Cliente/Tareas/UN 2/Parte Individual/TextAnalyzerPro/src/modules/Analizador.ts">
+      <metrics statements="23" coveredstatements="23" conditionals="14" coveredconditionals="13" methods="13" coveredmethods="13"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="10" count="16" type="stmt"/>
+      <line num="35" count="16" type="stmt"/>
+      <line num="44" count="16" type="stmt"/>
+      <line num="55" count="16" type="cond" truecount="2" falsecount="0"/>
+      <line num="58" count="16" type="stmt"/>
+      <line num="72" count="19" type="stmt"/>
+      <line num="79" count="16" type="stmt"/>
+      <line num="89" count="18" type="stmt"/>
+      <line num="92" count="16" type="stmt"/>
+      <line num="108" count="16" type="cond" truecount="2" falsecount="0"/>
+      <line num="114" count="16" type="cond" truecount="2" falsecount="0"/>
+      <line num="116" count="25" type="stmt"/>
+      <line num="122" count="7" type="stmt"/>
+      <line num="134" count="19" type="stmt"/>
+      <line num="138" count="16" type="cond" truecount="2" falsecount="0"/>
+      <line num="141" count="7" type="cond" truecount="1" falsecount="1"/>
+      <line num="145" count="7" type="stmt"/>
+      <line num="157" count="16" type="cond" truecount="2" falsecount="0"/>
+      <line num="159" count="16" type="stmt"/>
+      <line num="161" count="16" type="stmt"/>
+      <line num="162" count="25" type="cond" truecount="2" falsecount="0"/>
+      <line num="168" count="16" type="stmt"/>
+    </file>
   </project>
 </coverage>

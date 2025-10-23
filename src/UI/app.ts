@@ -5,7 +5,6 @@ import { AnalizarTexto } from "../modules/Analizador.js";
  * @param text El texto actual del textarea.
  */
 function actualizarEstadisticas(text: string){
-
     const resultado = AnalizarTexto(text);
 
     // FUNCIONES:
